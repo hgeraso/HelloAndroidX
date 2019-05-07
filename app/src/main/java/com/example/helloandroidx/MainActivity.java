@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         button = (Button)findViewById(R.id.button);
         button.setOnClickListener(this);
-        updateTime();
+        //updateTime();
+        button.setText("Bienvenido a tu primer app");
 
     }
 
@@ -26,5 +27,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
        // updateTime();
+
     }
 }
